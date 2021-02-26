@@ -1,0 +1,471 @@
+.content-wrapper {
+  padding-top: 48px;
+}
+
+.navbar {
+  background-color: #5177D7;
+  -webkit-box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.25);
+  height: 48px;
+}
+
+.navbar a {
+  color: #FFFFFF;
+}
+
+.navbar .navbar-brand {
+  font-family: Futura Md BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.navbar .navbar-brand img {
+  width: 31px;
+}
+
+.navbar .navbar-nav {
+  background-color: #FFFFFF;
+}
+
+.navbar .nav-link {
+  margin-left: 48px;
+  color: #5177D7;
+  font-family: Futura Md BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.navbar .nav-link:focus::after {
+  content: '';
+  display: block;
+  border-bottom: 3px solid rgba(81, 119, 215, 0.5);
+  margin-bottom: -3px;
+}
+
+.navbar .nav-link:hover::after {
+  content: '';
+  display: block;
+  border-bottom: 3px solid rgba(81, 119, 215, 0.5);
+  margin-bottom: -3px;
+}
+
+.jumbotron {
+  height: 592px;
+  margin-bottom: 0px;
+}
+
+.jumbotron .container {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.jumbotron h1 {
+  font-family: Futura Md BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+}
+
+.jumbotron p {
+  font-family: Futura Md BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: 31px;
+}
+
+.jumbotron .btn {
+  border-radius: 41px;
+  margin-top: 31px;
+  padding: 3px 14px 3px 14px;
+  color: #5177D7;
+  font-family: Futura Md BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.sambutan {
+  background-image: url(../assets/img/sambutan-decoration-up.png), url(../assets/img/sambutan-decoration-bottom.png);
+  background-size: 258px 35px, 258px 35px;
+  background-position: right top, left bottom;
+  background-repeat: no-repeat, no-repeat;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.sambutan .image-sambutan {
+  max-width: 671px;
+  min-width: 335.41px;
+}
+
+.sambutan .text-sambutan .judul {
+  font-family: Futura Md BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.sambutan .text-sambutan .judul span {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.sambutan .text-sambutan .text {
+  font-family: Futura Md BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.videoprofil {
+  background-image: url(../assets/img/Group6.png), url(../assets/img/Group5.png), url(../assets/img/Exclude.png), url(../assets/img/Group5.png);
+  background-size: 70px 66px, 0px 0px, 32px 32px, 46px 40px;
+  background-position: 85% 0%, 5% 7%, 20% 5%, 100% 100%;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.videoprofil .image-profil {
+  max-width: 671px;
+  min-width: 335.41px;
+}
+
+.videoprofil .button {
+  border-radius: 41px;
+  font-family: Futura Md BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.videoprofil .btn-play {
+  background-color: #FE7A6E;
+  color: #FFFFFF;
+  padding: 3px 21px 3px 21px;
+}
+
+.videoprofil .text-profil .judul {
+  font-family: Futura Md BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.videoprofil .text-profil .judul span {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.videoprofil .text-profil .text {
+  font-family: Futura Md BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.berita .section-title h1 {
+  font-family: Futura Md BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.berita .holder-berita {
+  text-align: center;
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.berita .holder-berita img {
+  border-radius: 4px;
+  overflow: hidden;
+  width: 360px;
+  height: 240px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.berita .holder-berita .info {
+  position: absolute;
+  bottom: -48px;
+  left: 60px;
+  right: 60px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#5c768d), color-stop(35%, rgba(92, 118, 141, 0.9)), to(rgba(140, 167, 191, 0.8)));
+  background: linear-gradient(360deg, #5c768d 0%, rgba(92, 118, 141, 0.9) 35%, rgba(140, 167, 191, 0.8) 100%);
+  padding: 15px 0;
+  border-radius: 4px;
+  color: #FFFFFF;
+  font-family: Futura Md BT;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.berita .holder-berita .info h4 {
+  font-size: 20px;
+  line-height: 17px;
+}
+
+.berita .holder-berita .info span {
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.footer {
+  background-image: url(../assets/img/paper-plane.png), url(../assets/img/paper-plane-bawah.png);
+  background-size: 250px 323px, 254px 291px;
+  background-position: top right, 0% 80%;
+  background-repeat: no-repeat, no-repeat;
+  background-color: #F5F5F5;
+  padding-top: 44px;
+}
+
+.footer .footer-top {
+  font-family: Futura Md BT;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.footer .footer-top .link-footer h4 {
+  margin-top: 25px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.footer .footer-top .link-footer ul {
+  font-size: 14px;
+  line-height: 17px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer .footer-top .link-footer li {
+  padding-bottom: 14px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.footer .footer-top .link-footer li a {
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+
+.footer .footer-top .link-footer .social-media {
+  padding-top: 16px;
+}
+
+.footer .footer-top .link-footer .social-media a {
+  padding-right: 20px;
+  text-decoration: none;
+}
+
+.footer .copyright {
+  background: #5177D7;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: Futura Md BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+}
+
+@media (min-width: 992px) {
+  .content-wrapper {
+    padding-top: 99px;
+  }
+  .navbar {
+    height: 99px;
+  }
+  .navbar a {
+    color: #FFFFFF;
+  }
+  .navbar .navbar-brand {
+    margin-left: 13px;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .navbar .navbar-brand img {
+    width: 59px;
+  }
+  .navbar .navbar-nav {
+    background-color: transparent;
+  }
+  .navbar .nav-link {
+    margin-left: 48px;
+    color: #FFFFFF;
+    font-family: Futura Md BT;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .navbar .nav-link:focus::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+    margin-bottom: -3px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .navbar .nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+    margin-bottom: -3px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .jumbotron {
+    height: 590px;
+  }
+  .jumbotron h1 {
+    font-size: 55px;
+    line-height: 66px;
+  }
+  .jumbotron p {
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 74px;
+  }
+  .jumbotron .btn {
+    border-radius: 41px;
+    margin-top: 74px;
+    padding: 10px 42px 10px 42px;
+    color: #5177D7;
+    font-family: Futura Md BT;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .sambutan {
+    background-size: 668px 88px, 762px 88px;
+  }
+  .sambutan .text-sambutan .judul {
+    font-family: Futura Md BT;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 58px;
+  }
+  .sambutan .text-sambutan .judul span {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .sambutan .text-sambutan .text {
+    font-family: Futura Md BT;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .videoprofil {
+    background-size: 153px 146px, 82px 72px, 64px 64px, 82px 72px;
+    background-position: 85% 0%, 5% 7%, 50% 50%, 100% 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .videoprofil .button {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .videoprofil .btn-play {
+    padding: 8px 45px 8px 45px;
+  }
+  .videoprofil .text-profil .judul {
+    font-family: Futura Md BT;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 58px;
+  }
+  .videoprofil .text-profil .judul span {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .videoprofil .text-profil .text {
+    font-family: Futura Md BT;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .berita .section-title h1 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .berita .holder-berita .info {
+    left: 20px;
+    right: 20px;
+  }
+  .berita .holder-berita .info h4 {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .berita .holder-berita .info span {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .footer {
+    background-image: url(../assets/img/paper-plane.png), url(../assets/img/paper-plane-bawah.png);
+    background-size: 250px 323px, 254px 291px;
+    background-position: top right, 0% 80%;
+    background-repeat: no-repeat, no-repeat;
+    background-color: #F5F5F5;
+    padding-top: 44px;
+  }
+  .footer .footer-top .link-footer h4 {
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+  }
+  .footer .footer-top .link-footer ul {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .footer .footer-top .link-footer li {
+    padding-bottom: 14px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .footer .footer-top .link-footer li a {
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+  }
+  .footer .footer-top .link-footer .social-media {
+    padding-top: 16px;
+  }
+  .footer .footer-top .link-footer .social-media a {
+    padding-right: 20px;
+    text-decoration: none;
+  }
+  .footer .copyright {
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+}
+/*# sourceMappingURL=style.css.map */

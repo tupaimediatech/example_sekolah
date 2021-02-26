@@ -1,0 +1,559 @@
+$device:(
+    // Small devices (landscape phones, 576px and up)
+    'small' : 576px,
+    // Medium devices (tablets, 768px and up)
+    'medium' : 768px,
+    // Large devices (desktops, 992px and up)
+    'large' : 992px,
+    // Extra large devices (large desktops, 1200px and up)
+    'extralarge' : 1200px
+);
+
+$color : (
+    'primary' : #5177D7,
+    'secondary' : #FE7C6F,
+    'text-navbar' : #FFFFFF,
+);
+
+.content-wrapper{
+    padding-top: 48px;
+}
+
+// navbar
+.navbar{
+    background-color: map-get($map: $color, $key: 'primary');
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.25);
+    height: 48px;
+    
+    a{
+        color: map-get($map: $color, $key: 'text-navbar');
+    }
+    
+    .navbar-brand{
+        
+        font-family: Futura Md BT;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+
+        img{
+            width: 31px;
+        }
+    }
+
+    .navbar-nav{
+        background-color: #FFFFFF;
+    }
+    
+    .nav-link{
+        margin-left: 48px;
+        color:map-get($map: $color, $key: 'primary');
+
+        font-family: Futura Md BT;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;
+
+        &:focus::after{
+            content: '';
+            display: block;
+            border-bottom: 3px solid rgba(81, 119, 215, 0.5);
+            margin-bottom: -3px;
+        }
+
+        &:hover::after{
+            content: '';
+            display: block;
+            border-bottom: 3px solid rgba(81, 119, 215, 0.5);
+            margin-bottom: -3px;
+        }
+    }
+}
+
+// jumbotron
+.jumbotron{
+    // background-image: url(../assets/img/jumbotron.png);
+    height: 592px;
+    margin-bottom: 0px;
+    // color: #FFFFFF;
+
+    .container{
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    
+    h1{
+        font-family: Futura Md BT;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 43px;
+        
+    }
+
+    p{
+        font-family: Futura Md BT;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+
+        margin-top: 31px;
+    }
+
+    .btn{
+        border-radius: 41px;
+        margin-top: 31px;
+        padding: 3px 14px 3px 14px;
+        color: map-get($map: $color, $key: 'primary');
+
+        font-family: Futura Md BT;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+
+
+    }
+}
+
+// sambutan
+.sambutan{
+    background-image: url(../assets/img/sambutan-decoration-up.png), url(../assets/img/sambutan-decoration-bottom.png);
+    background-size: 258px 35px, 258px 35px;
+    background-position: right top, left bottom;
+    background-repeat: no-repeat, no-repeat;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .image-sambutan{
+        max-width: 671px;
+        min-width: 335.41px;
+    }
+    .text-sambutan{
+        .judul{
+            font-family: Futura Md BT;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 29px;
+
+            span{
+                font-size: 16px;
+                line-height: 19px;
+            }
+        }
+        .text{
+            font-family: Futura Md BT;
+            font-style: normal;
+            font-weight: normal;        
+            font-size: 14px;
+            line-height: 17px;
+
+            color: rgba(0, 0, 0, 0.5)
+        }
+    }
+}
+
+// videoprofil
+.videoprofil{
+    background-image: url(../assets/img/Group6.png), url(../assets/img/Group5.png), url(../assets/img/Exclude.png), url(../assets/img/Group5.png);
+    background-size: 70px 66px, 0px 0px, 32px 32px, 46px 40px;
+    background-position: 85% 0%, 5% 7%, 20% 5%, 100% 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+
+    padding-top: 50px;
+    padding-bottom: 10px;
+    .image-profil{
+        max-width: 671px;
+        min-width: 335.41px;
+    }
+    .button{
+        border-radius: 41px;
+        font-family: Futura Md BT;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;        
+    }
+    .btn-play{
+        background-color: #FE7A6E;
+        color: #FFFFFF;
+        padding: 3px 21px 3px 21px;
+    }
+    .text-profil{
+        .judul{
+            font-family: Futura Md BT;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 29px;
+
+            span{
+                font-size: 16px;
+                line-height: 19px;
+            }
+        }
+        .text{
+            font-family: Futura Md BT;
+            font-style: normal;
+            font-weight: normal;        
+            font-size: 14px;
+            line-height: 17px;
+
+            color: rgba(0, 0, 0, 0.5)
+        }
+    }
+
+}
+
+// berita
+.berita{
+    .section-title{
+        h1{
+            font-family: Futura Md BT;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+        }
+    }
+
+    .holder-berita{
+        text-align: center;
+        margin-bottom: 80px;
+        position: relative;
+
+        img{
+            border-radius: 4px;
+            overflow: hidden;
+            width: 360px;
+            height: 240px;
+            object-fit: cover;
+        }
+        .info{
+            position: absolute;
+            bottom: -48px;
+            left: 60px;
+            right: 60px;
+            background: linear-gradient(360deg, #5c768d 0%, rgba(92, 118, 141, 0.9) 35%, rgba(140, 167, 191, 0.8) 100%);
+            padding: 15px 0;
+            border-radius: 4px;
+
+            color: #FFFFFF;
+            font-family: Futura Md BT;
+            font-style: normal;
+            font-weight: normal;
+
+            h4{
+                font-size: 20px;
+                line-height: 17px;
+            }
+            
+            span{
+                font-size: 12px;
+                line-height: 14px;
+            }
+        }
+    }
+}
+
+// footer
+.footer{
+    background-image: url(../assets/img/paper-plane.png),url(../assets/img/paper-plane-bawah.png);
+    background-size: 250px 323px, 254px 291px;
+    background-position: top right, 0% 80%;
+    background-repeat: no-repeat, no-repeat;
+    background-color: #F5F5F5;
+    padding-top: 44px;
+    .footer-top{
+        font-family: Futura Md BT;
+        font-style: normal;
+        font-weight: normal;
+        .link-footer{
+            h4{
+                margin-top: 25px;
+
+                font-size: 16px;
+                line-height: 19px;
+
+                color: #000000;
+            }
+            ul{
+                font-size: 14px;
+                line-height: 17px;
+
+                list-style: none;
+                padding: 0;
+                margin: 0;
+            }
+            li{
+                padding-bottom: 14px;
+                color: rgba(0, 0, 0, 0.5);
+                a{
+                    color: rgba(0, 0, 0, 0.5);
+                    text-decoration: none;  
+                }
+            }
+
+            .social-media{
+                padding-top: 16px;
+                a{
+                    padding-right: 20px;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .copyright{
+        background: #5177D7;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        font-family: Futura Md BT;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+
+        color: #FFFFFF;
+    }
+}
+
+@media (min-width: map-get($map: $device, $key: 'large')){
+    .content-wrapper{
+        padding-top: 99px;
+    }
+    
+    // navbar
+    .navbar{
+        height: 99px;
+        
+        a{
+            color: map-get($map: $color, $key: 'text-navbar');
+        }
+        
+        .navbar-brand{
+            margin-left: 13px;
+            font-size: 24px;
+            line-height: 29px;
+            
+            img{
+                width: 59px;
+            }
+        }
+        
+        .navbar-nav{
+            background-color: transparent;
+        }
+        
+        .nav-link{
+            margin-left: 48px;
+            color: map-get($map: $color, $key: 'text-navbar');
+            
+            font-family: Futura Md BT;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 24px;
+            
+            &:focus::after{
+                content: '';
+                display: block;
+                border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+                margin-bottom: -3px;
+                
+                width: 50%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            &:hover::after{
+                content: '';
+                display: block;
+                border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+                margin-bottom: -3px;
+                
+                width: 50%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
+    
+    // jumbotron
+    .jumbotron{
+        // background-image: url(../assets/img/jumbotron.png);
+        height: 590px;
+    
+        h1{
+            font-size: 55px;
+            line-height: 66px; 
+        }
+        
+        p{
+            font-size: 24px;
+            line-height: 29px;
+            
+            margin-top: 74px;
+        }
+        
+        .btn{
+            border-radius: 41px;
+            margin-top: 74px;
+            padding: 10px 42px 10px 42px;
+            color: map-get($map: $color, $key: 'primary');
+            
+            font-family: Futura Md BT;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 24px;
+            
+            
+        }
+    }
+    
+    // sambutan
+    .sambutan{
+        background-size: 668px 88px, 762px 88px;
+        .text-sambutan{
+            .judul{
+                font-family: Futura Md BT;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 48px;
+                line-height: 58px;
+                
+                span{
+                    font-size: 30px;
+                    line-height: 36px;
+                }
+            }
+            .text{
+                font-family: Futura Md BT;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 24px;
+                line-height: 29px;
+                
+                color: rgba(0, 0, 0, 0.5)
+            }
+        }
+    }
+    
+    // video profil
+    .videoprofil{
+        background-size: 153px 146px, 82px 72px, 64px 64px, 82px 72px;
+        background-position: 85% 0%, 5% 7%, 50% 50%, 100% 100%;
+        
+        padding-top: 100px;
+        padding-bottom: 100px;
+        .button{
+            font-size: 24px;
+            line-height: 29px;        
+        }
+        .btn-play{
+            padding: 8px 45px 8px 45px;
+        }
+        .text-profil{
+            .judul{
+                font-family: Futura Md BT;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 48px;
+                line-height: 58px;
+                
+                span{
+                    font-size: 30px;
+                    line-height: 36px;
+                }
+            }
+            .text{
+                font-family: Futura Md BT;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 24px;
+                line-height: 29px;
+                
+                color: rgba(0, 0, 0, 0.5)
+            }
+        }
+    }
+    
+    // berita
+    .berita{
+        .section-title{
+            h1{
+                font-size: 30px;
+                line-height: 36px;
+            }
+        }
+    
+        .holder-berita{
+            .info{
+                left: 20px;
+                right: 20px;
+    
+                h4{
+                    font-size: 24px;
+                    line-height: 29px;
+                }
+    
+                span{
+                    font-size: 18px;
+                    line-height: 22px;
+                }
+            }
+        }
+    }
+    
+    // footer
+    .footer{
+        background-image: url(../assets/img/paper-plane.png),url(../assets/img/paper-plane-bawah.png);
+        background-size: 250px 323px, 254px 291px;
+        background-position: top right, 0% 80%;
+        background-repeat: no-repeat, no-repeat;
+        background-color: #F5F5F5;
+        padding-top: 44px;
+        .footer-top{
+            .link-footer{
+                h4{
+                    font-size: 24px;
+                    line-height: 29px;
+    
+                    color: #000000;
+                }
+                ul{
+                    font-size: 20px;
+                    line-height: 24px;
+                }
+                li{
+                    padding-bottom: 14px;
+                    color: rgba(0, 0, 0, 0.5);
+                    a{
+                        color: rgba(0, 0, 0, 0.5);
+                        text-decoration: none;  
+                    }
+                }
+    
+                .social-media{
+                    padding-top: 16px;
+                    a{
+                        padding-right: 20px;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        .copyright{
+            font-size: 20px;
+            line-height: 24px;
+    
+            color: #FFFFFF;
+        }
+    }
+}
